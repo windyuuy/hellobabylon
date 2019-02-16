@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"strictNullChecks": true,
+		"outDir": "./dist/",
+		"module": "commonjs",
+		"target": "es6",
+		"sourceMap": true,
+		// "noImplicitAny": true,
+	},
+	"exclude": [
+		"node_modules"
+	],
+	// "files": [
+	// 	"./samples/TextureSample.ts"
+	// ],
+	"filesGlob": [
+		"./src/**/*.ts",
+	]
+}
